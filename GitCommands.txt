@@ -1,0 +1,13 @@
+#create a branch
+git checkout -b makebuttonsastiles
+
+#change context to the branch
+git checkout makebuttonsastiles
+
+#save changes
+git commit
+
+#checkin process
+git checkout master
+git rebase makebuttonsastiles
+git push origin master
